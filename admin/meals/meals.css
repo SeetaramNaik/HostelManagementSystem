@@ -1,0 +1,158 @@
+body {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: #000;
+}
+.meal-details-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+  font-size: 15px;
+  padding-left: 15px;
+}
+.dashboard {
+  margin-right: 30px;
+}
+.dashboard > a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+h2 {
+  background-color: rgb(150, 224, 163);
+  color: rgb(29, 128, 4);
+  width: fit-content;
+  margin-left: 670px;
+  padding: 20px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+.all-day-meals {
+  display: flex;
+  text-decoration: none;
+  color: #000;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.meal-card {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(208, 244, 244);
+  color: rgb(4, 113, 120);
+  height: fit-content;
+  width: 320px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #000;
+}
+/* 
+h4 {
+  text-decoration: none;
+  color: #000;
+} */
+
+.day {
+  /* background-color: rgb(120, 204, 74); */
+  background: rgb(73, 190, 4);
+  background: linear-gradient(
+    180deg,
+    rgba(73, 190, 4, 1) 10%,
+    rgba(179, 237, 182, 1) 89%
+  );
+  /* background-color: #000; */
+  color: #fff;
+  border-top-left-radius: 30px 30px;
+  border-top-right-radius: 30px 30px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.day > h3 {
+  font-size: 30px;
+  text-align: center;
+}
+.day-meal > h4 {
+  font-size: 20px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.day-meal > h4 span {
+  font-size: 20px;
+  padding-left: 10px;
+  color: rgb(6, 87, 21);
+}
+.edit-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.room-detail-btn > a button {
+  background-color: rgb(12, 190, 15);
+  color: #000;
+  border: none;
+  padding: 10px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.room-detail-btn > a button:hover {
+  background-color: #000;
+  color: #fff;
+  transition: 0.5s;
+}
+.edit_meal_form {
+  position: absolute;
+  left: 33%;
+  background-color: rgb(9, 218, 100);
+  border-radius: 30px;
+  padding: 30px;
+  width: 30%;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.edit_meal_form > div {
+  margin: 5px;
+  padding: 10px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.label {
+  width: 30%;
+  font-weight: 600;
+  font-size: 17px;
+}
+.edit_input {
+  padding: 10px;
+  background-color: rgb(253, 251, 251);
+  border: none;
+  border-radius: 40px;
+  color: rgb(10, 10, 10);
+  font-size: 16px;
+  width: 100%;
+}
+.submit {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.submit > input {
+  background-color: rgb(10, 10, 10);
+  border: none;
+  border-radius: 40px;
+  color: #fff;
+  padding: 20px;
+  font-weight: 800;
+}
